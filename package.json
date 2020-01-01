@@ -1,0 +1,22 @@
+{
+  "name": "aphroditeweb",
+  "version": "1.0.0",
+  "description": "Business website buildout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taoiststudent/AphroditeWeb.git"
+  },
+  "author": "John Schaarsmith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taoiststudent/AphroditeWeb/issues"
+  },
+  "homepage": "https://github.com/Taoiststudent/AphroditeWeb#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
