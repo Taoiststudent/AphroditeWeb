@@ -1,0 +1,6 @@
+---
+deployment:
+	tasks:
+	-export DEPLOYPATH=/home/uzhgnen2u7wp/repositories/AphroditeWeb
+	-repositories/AphroditeWeb home.html $DEPLOYPATH
+	-repositories/AphroditeWeb awdStyle.css $DEPLOYPATH
