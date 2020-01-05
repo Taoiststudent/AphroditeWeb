@@ -28,6 +28,17 @@ body {
 /* CSS Document */
 /* CSS Document */
 /* CSS Document */
+.lightingStrike {
+  height: 100rem; }
+
+.lightingStrike-image {
+  position: absolute;
+  height: 100rem;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent; }
+
+/* CSS Document */
 .sixPiecePicture {
   height: 85rem;
   width: 100%; }
