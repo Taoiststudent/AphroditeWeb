@@ -1,4 +1,278 @@
 /* CSS Document */
+/* CSS Document */
+/* CSS Document */
+@keyframes pictureSplash {
+  0% {
+    opacity: 1;
+    z-index: 10; }
+  50% {
+    opacity: .7;
+    z-index: 10; }
+  100% {
+    opacity: 0;
+    z-index: 30; } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(85rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-85rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes flashlighting {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: .5; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@keyframes flashlighting1 {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: .5; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@keyframes flashlighting2 {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: .5; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@keyframes flashlighting3 {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: .5; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+/* CSS Document */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.clear {
+  clear: both; }
+
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/*.lightingStrike-coverImage{
+	height:100rem;
+	width: 100%;
+	display: inline-block;
+	background-image: url("../awdImages/AphroditeFlashName_copy.png");
+	<!-- animation: pictureSplash 6s ease-in .5s; -->
+		
+}*/
+.lightingStrike {
+  height: 100rem;
+  background-image: linear-gradient(#66ccff, #8613e1), url("../../awdImages/AphroditeFlashName_copy.png");
+  z-index: 20;
+  background-size: cover;
+  background-position: top;
+  position: relative; }
+
+.lightingStrike-image {
+  position: absolute;
+  height: 100rem;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  animation: flashlighting .5s ease-in 4s;
+  opacity: 0; }
+
+.lightingStrike-imageflash {
+  position: absolute;
+  height: 100rem;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  animation: flashlighting1 .5s ease-in 5s;
+  opacity: 0; }
+
+.lightingStrike-imageBig {
+  position: absolute;
+  height: 100rem;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  animation: flashlighting2 .5s ease-in 6s;
+  opacity: 0; }
+
+.lightingStrike-imageBigflash {
+  position: absolute;
+  height: 100rem;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  animation: flashlighting3 .5s ease-in 8s;
+  opacity: 0; }
+
+/* CSS Document */
+.sixPiecePicture {
+  height: 85rem;
+  width: 100%; }
+
+.mainImage1 {
+  width: 30rem; }
+
+.mainImage1--image1 {
+  height: 85rem;
+  width: 30rem;
+  -webkit-clip-path: polygon(10% 0%, 90% 0%, 90% 90%, 100% 90%, 50% 100%, 0% 90%, 10% 90%);
+  clip-path: polygon(10% 0%, 90% 0%, 90% 90%, 100% 90%, 50% 100%, 0% 90%, 10% 90%);
+  animation: moveInTop 3s ease-in 1s; }
+
+.mainImage2 {
+  width: 30rem; }
+
+.mainImage2--image2 {
+  height: 85rem;
+  width: 30rem;
+  -webkit-clip-path: polygon(50% 0%, 100% 10%, 90% 10%, 90% 100%, 10% 100%, 10% 10%, 0% 10%);
+  clip-path: polygon(50% 0%, 100% 10%, 90% 10%, 90% 100%, 10% 100%, 10% 10%, 0% 10%);
+  animation: moveInBottom 3s ease-in 1s; }
+
+.mainImage3 {
+  width: 30rem; }
+
+.mainImage3--image3 {
+  height: 85rem;
+  width: 30rem;
+  -webkit-clip-path: polygon(10% 0%, 90% 0%, 90% 90%, 100% 90%, 50% 100%, 0% 90%, 10% 90%);
+  clip-path: polygon(10% 0%, 90% 0%, 90% 90%, 100% 90%, 50% 100%, 0% 90%, 10% 90%);
+  animation: moveInTop 3s ease-in 1s; }
+
+.mainImage4 {
+  width: 30rem; }
+
+.mainImage4--image4 {
+  height: 85rem;
+  width: 30rem;
+  -webkit-clip-path: polygon(50% 0%, 100% 10%, 90% 10%, 90% 100%, 10% 100%, 10% 10%, 0% 10%);
+  clip-path: polygon(50% 0%, 100% 10%, 90% 10%, 90% 100%, 10% 100%, 10% 10%, 0% 10%);
+  animation: moveInBottom 3s ease-in 1s; }
+
+.mainImage5 {
+  width: 30rem; }
+
+.mainImage5--image5 {
+  height: 85rem;
+  width: 30rem;
+  -webkit-clip-path: polygon(10% 0%, 90% 0%, 90% 90%, 100% 90%, 50% 100%, 0% 90%, 10% 90%);
+  clip-path: polygon(10% 0%, 90% 0%, 90% 90%, 100% 90%, 50% 100%, 0% 90%, 10% 90%);
+  animation: moveInTop 3s ease-in 1s; }
+
+.mainImage6 {
+  width: 30rem; }
+
+.mainImage6--image6 {
+  height: 85rem;
+  width: 30rem;
+  -webkit-clip-path: polygon(50% 0%, 100% 10%, 90% 10%, 90% 100%, 10% 100%, 10% 10%, 0% 10%);
+  clip-path: polygon(50% 0%, 100% 10%, 90% 10%, 90% 100%, 10% 100%, 10% 10%, 0% 10%);
+  animation: moveInBottom 3s ease-in 1s; }
+
+/* CSS Document */
+.splashPictureText {
+  width: 100%;
+  height: 100rem; }
+
+/* CSS Document */
+/* CSS Document */
+.logoHeader {
+  width: 182.5rem;
+  height: 15rem;
+  margin: 0 auto; }
+
+.logoImage {
+  height: 15rem;
+  width: 35%; }
+
+.logoText {
+  height: 15rem;
+  width: 123%;
+  margin-left: -30rem; }
+
+/* CSS Document */
+.row {
+  max-width: 182.5rem;
+  margin: 0 auto; }
+
+.row:not(:last-child) {
+  margin-bottom: 8rem; }
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.row [class^="col-"] {
+  float: left; }
+
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem; }
+
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2); }
+
+.row .col-1-of-3 {
+  width: calc((100% - 2*6rem)   / 3); }
+
+.row .col-2-of-3 {
+  width: calc(2 *  ((100% - 2 *6rem)   / 3) + 6rem); }
+
+.row .col-1-of-4 {
+  width: calc((100% - 3* 6rem) / 4); }
+
+.row .col-2-of-4 {
+  width: calc(( 2 * (100% - 3* 6rem) / 4) + 6rem); }
+
+.row .col-3-of-4 {
+  width: calc(( 3 * (100% - 3* 6rem) / 4) + (2 * 6rem)); }
+
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
 @media (min-width: 1558px) {
   body {
     padding: 10;
