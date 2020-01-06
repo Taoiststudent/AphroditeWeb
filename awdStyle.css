@@ -95,57 +95,20 @@ body {
 /* CSS Document */
 /* CSS Document */
 /* CSS Document */
-/*.lightingStrike-coverImage{
-	height:100rem;
-	width: 100%;
-	display: inline-block;
-	background-image: url("../awdImages/AphroditeFlashName_copy.png");
-	<!-- animation: pictureSplash 6s ease-in .5s; -->
-		
-}*/
-.lightingStrike {
-  height: 100rem;
-  background-image: linear-gradient(#66ccff, #8613e1), url("../../awdImages/AphroditeFlashName_copy.png");
-  z-index: 20;
-  background-size: cover;
-  background-position: top;
-  position: relative; }
-
-.lightingStrike-image {
-  position: absolute;
-  height: 100rem;
+.logoTextBox {
+  height: 100%;
   width: 100%;
-  z-index: 10;
-  background-color: transparent;
-  animation: flashlighting .5s ease-in 4s;
-  opacity: 0; }
+  background-image: linear-gradient(#66ccff, #8613e1);
+  z-index: 20; }
 
-.lightingStrike-imageflash {
+.logoText-image {
   position: absolute;
-  height: 100rem;
-  width: 100%;
+  top: 35rem;
+  left: 75rem;
+  height: 10rem;
+  width: 25%;
   z-index: 10;
-  background-color: transparent;
-  animation: flashlighting1 .5s ease-in 5s;
-  opacity: 0; }
-
-.lightingStrike-imageBig {
-  position: absolute;
-  height: 100rem;
-  width: 100%;
-  z-index: 10;
-  background-color: transparent;
-  animation: flashlighting2 .5s ease-in 6s;
-  opacity: 0; }
-
-.lightingStrike-imageBigflash {
-  position: absolute;
-  height: 100rem;
-  width: 100%;
-  z-index: 10;
-  background-color: transparent;
-  animation: flashlighting3 .5s ease-in 8s;
-  opacity: 0; }
+  background-color: transparent; }
 
 /* CSS Document */
 .sixPiecePicture {
@@ -213,26 +176,7 @@ body {
   animation: moveInBottom 3s ease-in 1s; }
 
 /* CSS Document */
-.splashPictureText {
-  width: 100%;
-  height: 100rem; }
-
 /* CSS Document */
-/* CSS Document */
-.logoHeader {
-  width: 182.5rem;
-  height: 15rem;
-  margin: 0 auto; }
-
-.logoImage {
-  height: 15rem;
-  width: 35%; }
-
-.logoText {
-  height: 15rem;
-  width: 123%;
-  margin-left: -30rem; }
-
 /* CSS Document */
 .row {
   max-width: 182.5rem;
@@ -271,308 +215,18 @@ body {
   width: calc(( 3 * (100% - 3* 6rem) / 4) + (2 * 6rem)); }
 
 /* CSS Document */
+.logoHeader {
+  width: 182.5rem;
+  height: 15rem;
+  margin: 0 auto; }
+
+.logoImage {
+  height: 15rem;
+  width: 35%; }
+
+.logoText {
+  height: 15rem;
+  width: 225%;
+  margin-left: -35rem; }
+
 /* CSS Document */
-/* CSS Document */
-@media (min-width: 1558px) {
-  body {
-    padding: 10;
-    margin: 0 auto; }
-  #navBarAwd {
-    postion: fixed;
-    padding: 0;
-    margin: 0 auto;
-    height: 55px; }
-  #awdLogo {
-    padding: 0;
-    margin: 0 auto;
-    height: 50px; }
-  .hero {
-    padding: 2%;
-    margin: 0 auto;
-    width: auto;
-    height: 250px;
-    background: #E1282B; }
-  .clear {
-    clear: both; }
-  h1 {
-    padding: 5%;
-    margin: 0 25%; }
-  p {
-    margin: 0 20%;
-    font-size: 23px; }
-  .artworks {
-    padding: 0;
-    margin: 2% 6% 2% 2%;
-    height: 550px;
-    width: 550px;
-    border-radius: 50%;
-    float: left;
-    flex-flow: row 2; }
-  #forestPic {
-    border-radius: 50%;
-    margin: 0 -5% 0 -8%;
-    position: relative;
-    left: 5%; }
-  #forestPic1 {
-    border-radius: 50%;
-    margin: 0 -5% 0 -8%;
-    position: relative;
-    left: 10%; }
-  #forestPic2 {
-    border-radius: 50%;
-    margin: 0 -5% 0 -8%;
-    position: relative;
-    left: 5%; }
-  #forestPic3 {
-    border-radius: 50%;
-    margin: 0 -5% 0 -8%;
-    position: relative;
-    left: 10%; }
-  .socialMedia {
-    padding: 2%;
-    margin: 0 auto;
-    height: 550px;
-    background: #23ED14; } }
-
-@media (min-width: 1366px) {
-  body {
-    padding: 0;
-    margin: 0 auto; }
-  #navBarAwd {
-    postion: fixed;
-    padding: 0;
-    margin: 0 auto;
-    height: 55px; }
-  #awdLogo {
-    padding: 0;
-    margin: 0 auto;
-    height: 50px; }
-  .hero {
-    padding: 2%;
-    margin: 0 auto;
-    width: auto;
-    height: 250px;
-    background: #E1282B; }
-  .clear {
-    clear: both; }
-  h1 {
-    padding: 5%;
-    margin: 0 15%; }
-  p {
-    margin: 0 10%;
-    font-size: 23px; }
-  .artworks {
-    padding: 0;
-    margin: 0;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    flex-flow: row 2; }
-  #forestPic {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    margin: 0 0 6%  20%; }
-  #forestPic1 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    margin: 0 0 6% 20%; }
-  #forestPic2 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    margin: 0 0 6% 20%; }
-  #forestPic3 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    margin: 0 0 6% 20%; }
-  .socialMedia {
-    padding: 2%;
-    margin: 0 auto;
-    height: 550px;
-    background: #23ED14; } }
-
-@media (min-width: 1280px) {
-  body {
-    padding: 0;
-    margin: 0 auto; }
-  #navBarAwd {
-    postion: fixed;
-    padding: 0;
-    margin: 0 auto;
-    height: 55px; }
-  #awdLogo {
-    padding: 0;
-    margin: 0 auto;
-    height: 50px; }
-  .hero {
-    padding: 2%;
-    margin: 0 auto;
-    width: auto;
-    height: 250px; }
-  .clear {
-    clear: both; }
-  h1 {
-    padding: 5%;
-    margin: 0 20%; }
-  p {
-    margin: 0 15%;
-    font-size: 23px; }
-  .artworks {
-    padding: 0;
-    margin: 0 0 5% 15%;
-    height: 400px;
-    width: 400px;
-    float: left;
-    border-radius: 50%;
-    flex-flow: row 2; }
-  #forestPic {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -8%; }
-  #forestPic1 {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -8%; }
-  #forestPic2 {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -8%; }
-  #forestPic3 {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -8%; }
-  .socialMedia {
-    padding: 2%;
-    margin: 0 auto;
-    height: 550px;
-    background: #23ED14; } }
-
-@media (min-width: 1024px) {
-  body {
-    padding: 0;
-    margin: 0 auto; }
-  #navBarAwd {
-    postion: fixed;
-    padding: 0;
-    margin: 0 auto;
-    height: 55px; }
-  #awdLogo {
-    padding: 0;
-    margin: 0 auto;
-    height: 50px; }
-  .hero {
-    padding: 2%;
-    margin: 0 auto;
-    width: auto;
-    height: 250px;
-    background: #E1282B; }
-  .clear {
-    clear: both; }
-  h1 {
-    padding: 5%;
-    margin: 0 10%; }
-  p {
-    margin: 0  5%;
-    font-size: 23px; }
-  .artworks {
-    padding: 0;
-    margin: 0 0 5% 15%;
-    height: 350px;
-    width: 350px;
-    float: left;
-    border-radius: 50%;
-    flex-flow: row 2; }
-  #forestPic {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -18%; }
-  #forestPic1 {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin: 0 -5% 0  -38%; }
-  #forestPic2 {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -18%; }
-  #forestPic3 {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -38%; }
-  .socialMedia {
-    padding: 2%;
-    margin: 0 auto;
-    height: 550px;
-    background: #23ED14; } }
-
-@media (min-width: 414px) {
-  body {
-    padding: 0;
-    margin: 0 auto; }
-  #navBarAwd {
-    postion: fixed;
-    padding: 0;
-    margin: 0 auto;
-    height: 55px; }
-  #awdLogo {
-    padding: 0;
-    margin: 0 auto;
-    height: 50px; }
-  .hero {
-    padding: 2%;
-    margin: 0 auto;
-    width: auto;
-    height: 250px;
-    background: #E1282B; }
-  .clear {
-    clear: both; }
-  h1 {
-    padding: 0%;
-    margin: 0 10%; }
-  p {
-    padding: 2%;
-    margin: 0;
-    font-size: 23px; }
-  .artworks {
-    padding: 0;
-    margin: 0 0 5% 15%;
-    height: 350px;
-    width: 350px;
-    float: left;
-    border-radius: 50%;
-    flex-flow: row 1; }
-  #forestPic {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -18%; }
-  #forestPic1 {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin: 0 -5% 0  -18%; }
-  #forestPic2 {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -18%; }
-  #forestPic3 {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin: 0 -5% 0 -18%; }
-  .socialMedia {
-    padding: 2%;
-    margin: 0 auto;
-    height: 550px;
-    background: #23ED14; } }
